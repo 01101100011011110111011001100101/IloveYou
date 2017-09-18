@@ -1,4 +1,5 @@
 var love = setInterval(function() {
+	var elem = document.getElementById("myHeart"); 
 	    var r_num = Math.floor(Math.random() * 40) + 1;
 	    var r_size = Math.floor(Math.random() * 65) + 10;
 	    var r_left = Math.floor(Math.random() * 100) + 1;
