@@ -1,13 +1,10 @@
-
- 
 (function() {
 
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
     for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
         window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
-        window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame'] 
-                                   || window[vendors[x]+'CancelRequestAnimationFrame'];
+        window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame'] || window[vendors[x]+'CancelRequestAnimationFrame'];
     }
  
     if (!window.requestAnimationFrame)
@@ -34,10 +31,10 @@
 
 	function gameLoop () {
 	
-	  window.requestAnimationFrame(gameLoop);
+      window.requestAnimationFrame(gameLoop);
 
-	  owl.update();
-	  owl.render();
+      owl.update();
+      owl.render();
 	}
 	
 	function sprite (options) {
@@ -72,21 +69,10 @@
         };
 		
 		that.render = function () {
-		
-		  // Clear the canvas
-		  that.context.clearRect(0, 0, that.width, that.height);
-		  
-		  // Draw the animation
-		  that.context.drawImage(
-		    that.image,
-		    frameIndex * that.width / numberOfFrames,
-		    0,
-		    that.width / numberOfFrames,
-		    that.height,
-		    0,
-		    0,
-		    that.width / numberOfFrames,
-		    that.height);
+		// Clear the canvas
+          that.context.clearRect(0, 0, that.width, that.height);
+          //Draw the animation
+          that.context.drawImage(that.image,frameIndex * that.width / numberOfFrames,0,that.width / numberOfFrames,that.height,0,0,that.width / numberOfFrames,that.height);
 		};
 		
 		return that;
@@ -115,4 +101,6 @@
 	owlImage.src = "images/owl-animation.png";
 
 } ());
+
+
 
