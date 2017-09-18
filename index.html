@@ -19,20 +19,18 @@
  <canvas id="owlAnimation"></canvas>
  <script src="main.js"></script>
   <canvas id='canvas'></canvas><br />
- <button onclick='moveLeft()'>Left</button>
- <button onclick='moveRight()'>Right</button>
  <script>
- var canvasWidth = 650; 
- var canvasHeight = 350;
+ var canvasWidth = device-width; 
+ var canvasHeight = device-height;
  
  var spriteWidth = 864; 
  var spriteHeight = 280; 
  
- var rows = 2; 
+ var rows = 1; 
  var cols = 8; 
  
  var trackRight = 0; 
- var trackLeft = 1; 
+ var trackLeft = 0; 
  
  var width = spriteWidth/cols; 
  var height = spriteHeight/rows; 
@@ -49,7 +47,7 @@
  var left = false; 
  var right = true;
  
- var speed = 12; 
+ var speed = 6; 
  
  var canvas = document.getElementById('canvas');
  canvas.width = canvasWidth;
@@ -79,7 +77,26 @@
  updateFrame();
  ctx.drawImage(character,srcX,srcY,width,height,x,y,width,height);
  }
- 
+ document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        // up key
+    }
+    else if (e.keyCode == '40') {
+        // down arrow
+    }
+    else if (e.keyCode == '37') {
+      moveLeft;
+    }
+    else if (e.keyCode == '39') {
+       moveRight;
+    }
+
+}
  
  function moveLeft(){
  left = true; 
@@ -90,6 +107,7 @@
  left = false;
  right = true; 
  }
+ 
  
  setInterval(draw,100);
  
