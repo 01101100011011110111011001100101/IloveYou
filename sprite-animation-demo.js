@@ -1,22 +1,6 @@
-// Copyright 2013 William Malone (www.williammalone.com)
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//   http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
+
  
 (function() {
-	// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
-	// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
-	// requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
-	// MIT license
 
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
@@ -44,16 +28,16 @@
 
 (function () {
 			
-	var coin,
-		coinImage,
+	var owl,
+		owlImage,
 		canvas;					
 
 	function gameLoop () {
 	
 	  window.requestAnimationFrame(gameLoop);
 
-	  coin.update();
-	  coin.render();
+	  owl.update();
+	  owl.render();
 	}
 	
 	function sprite (options) {
@@ -109,26 +93,26 @@
 	}
 	
 	// Get canvas
-	canvas = document.getElementById("coinAnimation");
+	canvas = document.getElementById("owlAnimation");
 	canvas.width = 100;
 	canvas.height = 100;
 	
 	// Create sprite sheet
-	coinImage = new Image();	
+	owlImage = new Image();	
 	
 	// Create sprite
-	coin = sprite({
+	owl = sprite({
 		context: canvas.getContext("2d"),
 		width: 1000,
 		height: 100,
-		image: coinImage,
-		numberOfFrames: 10,
+		image: owlImage,
+		numberOfFrames: 8,
 		ticksPerFrame: 4
 	});
 	
 	// Load sprite sheet
-	coinImage.addEventListener("load", gameLoop);
-	coinImage.src = "images/coin-sprite-animation.png";
+	owlImage.addEventListener("load", gameLoop);
+	owlImage.src = "images/owl-sprite-animation.png";
 
 } ());
 
