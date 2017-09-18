@@ -112,7 +112,7 @@
 	
 	// Load sprite sheet
 	owlImage.addEventListener("load", gameLoop);
-	owlImage.src = "images/owl-sprite-animation.png";
+	owlImage.src = "images/owl-animation.png";
 
 } ());
 
