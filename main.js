@@ -89,8 +89,8 @@
 	// Create sprite
 	owl = sprite({
 		context: canvas.getContext("2d"),
-		width: 1000,
-		height: 100,
+		width: 416,
+		height: 46,
 		image: owlImage,
 		numberOfFrames: 8,
 		ticksPerFrame: 4
