@@ -97,7 +97,7 @@
 	});
 	
 	// Load sprite sheet
-	owlImage.addEventListener("load", gameLoop);
+	owlImage.addEventListener(load, gameLoop);
 	owlImage.src = "images/owl-animation.png";
 
 } ());
