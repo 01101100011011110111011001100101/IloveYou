@@ -74,17 +74,19 @@ canvas{
 }
 h2{ height:48px;margin:0;padding:0}
 @-webkit-keyframes move {
-    0% { margin-top: 0em; }
-    25% { margin-top: -48px; }
-    50% {margin-top: -96px;}
-    75% {margin-top: -144px; }
+     0% { margin-top: 0em; }
+    20% { margin-top: -48px; }
+    40% {margin-top: -96px;}
+    60% {margin-top: -144px; }
+    80% {margin-top: -192px;}
     100% {margin-top: 0;}
 }
 @keyframes move {
     0% { margin-top: 0em; }
-    25% { margin-top: -48px; }
-    50% {margin-top: -96px;}
-    75% {margin-top: -144px; }
+    20% { margin-top: -48px; }
+    40% {margin-top: -96px;}
+    60% {margin-top: -144px; }
+    80% {margin-top: -192px;}
     100% {margin-top: 0;}
 }
 
@@ -93,8 +95,8 @@ h2{
             animation: fade;
     -webkit-animation-duration: 2s;
             animation-duration: 2s;
-    -webkit-animation-iteration-count: 22;
-            animation-iteration-count: 22;
+    -webkit-animation-iteration-count: 5;
+            animation-iteration-count: 5;
 }
 
 @-webkit-keyframes fade {
