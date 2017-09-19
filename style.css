@@ -39,13 +39,13 @@ canvas{
 #test{
   position: relative;
   display: block;
-  margin:0;
+  margin: 0;
   z-index: -5;
 }
 
 h2 {
   position: absolute;
-  color : white;
+  color: white;
   font-family: "Lucida Console", Times, Monospace;
   font-size: 48px;
   text-align: center;
