@@ -1,5 +1,3 @@
-//grass originally by Roman Taraban
-
 var canvas   = document.getElementById('test'),
     ctx      = canvas.getContext('2d'),
     stack    = [],
