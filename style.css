@@ -47,6 +47,7 @@ canvas{
 #fade p {
     opacity: 0;
     margin-top: 200px;
-    font-size: 36px;
+    font-family: "Palatino";
+    font-size: 50px;
     text-align: center;
 }
