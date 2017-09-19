@@ -16,7 +16,7 @@ var drawer = function(){
 var anim = function(){
   var x = 0, y = 0;
   //tallness of blades * variable + min 
-  var maxTall = Math.random()*(h/4)+(h/4);
+  var maxTall = Math.random()*(h/4)+(h/2);
   //thickness of bladess
   var maxSize = Math.random()*(h/60)+5;
   //speed of blade growth
