@@ -43,26 +43,6 @@ canvas{
   z-index: -5;
 }
 
-#title {		
- position: absolute;		
- width: 100%;		
- text-align: center;		
- top: 50%;		
- color: #fff;		
- font-weight: 100;		
- font-size: 3em;		
- font-family: 'Pacifico', cursive;		
- }		
- 		
- #title #avatar {		
-  width: 40px;		
-  height: 40px;		
-  background-image: url(../img/avatar.jpg);		
-  display: inline-block;		
-  border-radius: 50%;		
-  background-size: 100%;		
- }
-
 
 #noite {
   background: -webkit-linear-gradient(top, rgb(0, 0, 0) 50%, rgb(25, 19, 39)80%, rgb(43, 32, 72));
@@ -90,18 +70,18 @@ canvas{
   animation-iteration-count: infinite;
 }
 
-#estrela.style1 { animation-duration: 0.5s; animation-name: estrela; }
-#estrela.style2 { animation-duration: 1s; animation-name: estrela; }
-#estrela.style3 { animation-duration: 1.5s; animation-name: estrela; }
-#estrela.style4 { animation-duration: 2s; animation-name: estrelaDestacada; }
+.estrela.style1 { animation-duration: 0.5s; animation-name: estrela; }
+.estrela.style2 { animation-duration: 1s; animation-name: estrela; }
+.estrela.style3 { animation-duration: 1.5s; animation-name: estrela; }
+.estrela.style4 { animation-duration: 2s; animation-name: estrelaDestacada; }
 
-#estrela.tam1 { width: 1px; height: 1px; }
-#estrela.tam2 { width: 2px; height: 2px; }
-#estrela.tam3 { width: 3px; height: 3px; }
+.estrela.tam1 { width: 1px; height: 1px; }
+.estrela.tam2 { width: 2px; height: 2px; }
+.estrela.tam3 { width: 3px; height: 3px; }
 
-#estrela.opacity1 { opacity:  1; }
-#estrela.opacity2 { opacity: .5; }
-#estrela.opacity3 { opacity: .1; }
+.estrela.opacity1 { opacity:  1; }
+.estrela.opacity2 { opacity: .5; }
+.estrela.opacity3 { opacity: .1; }
 
 #meteoro {
   position: absolute;
@@ -130,10 +110,10 @@ canvas{
   top: 0;
 }
 
-#meteoro.style1 { animation-name: meteoroStyle1; }
-#meteoro.style2 { animation-name: meteoroStyle2; }
-#meteoro.style3 { animation-name: meteoroStyle3; }
-#meteoro.style4 { animation-name: meteoroStyle4; }
+.meteoro.style1 { animation-name: meteoroStyle1; }
+.meteoro.style2 { animation-name: meteoroStyle2; }
+.meteoro.style3 { animation-name: meteoroStyle3; }
+.meteoro.style4 { animation-name: meteoroStyle4; }
 
 #lua {
   position: absolute;
@@ -164,7 +144,19 @@ canvas{
   opacity: 0.4;
 }
 
+#floresta {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 
+#floresta img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 @keyframes escurecer {
   0%   { top: 0; }
