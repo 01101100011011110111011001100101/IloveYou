@@ -3,7 +3,7 @@
 <html>
  <head>
   <meta charset="UTF-8">
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="style.css">
  </head>
  <body>
  <script src='https://rawgithub.com/soulwire/sketch.js/master/js/sketch.min.js'></script>
@@ -18,7 +18,7 @@
 
 </div>!-->
   
-    <script src="js/index.js"></script>
+  <script src="index.js"></script>
  <canvas id='canvas'></canvas><br />
  <button onclick='moveLeft()'>Left</button>
  <button onclick='moveRight()'>Right</button>
@@ -59,7 +59,7 @@
  var ctx = canvas.getContext("2d");
  
  var character = new Image(); 
- character.src = "character.png";
+ character.src = "owl-animation.png";
  
  function updateFrame(){
  curFrame = ++curFrame % frameCount; 
