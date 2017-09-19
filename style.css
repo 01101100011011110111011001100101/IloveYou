@@ -44,10 +44,10 @@ canvas{
 }
 
 h2 {
-  position: relative;
+  position: absolute;
   color : white;
   font-family: "Lucida Console", Times, Monospace;
   font-size: 48px;
   text-align: center;
-  z-index: 2;
+  z-index: 5;
 }
