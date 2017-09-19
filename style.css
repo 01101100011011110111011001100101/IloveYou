@@ -43,4 +43,9 @@ canvas{
   z-index: -5;
 }
 
-
+h2 {
+  color : white;
+  font-family: "Lucida Console", Times, Monospace;
+  font-size: 48px;
+  text-align: center;
+}
