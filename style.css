@@ -54,7 +54,7 @@ canvas{
  font-family: 'Pacifico', cursive;		
  }		
  		
- .title .avatar {		
+ #title #avatar {		
   width: 40px;		
   height: 40px;		
   background-image: url(../img/avatar.jpg);		
@@ -90,18 +90,18 @@ canvas{
   animation-iteration-count: infinite;
 }
 
-.estrela.style1 { animation-duration: 0.5s; animation-name: estrela; }
-.estrela.style2 { animation-duration: 1s; animation-name: estrela; }
-.estrela.style3 { animation-duration: 1.5s; animation-name: estrela; }
-.estrela.style4 { animation-duration: 2s; animation-name: estrelaDestacada; }
+#estrela.style1 { animation-duration: 0.5s; animation-name: estrela; }
+#estrela.style2 { animation-duration: 1s; animation-name: estrela; }
+#estrela.style3 { animation-duration: 1.5s; animation-name: estrela; }
+#estrela.style4 { animation-duration: 2s; animation-name: estrelaDestacada; }
 
-.estrela.tam1 { width: 1px; height: 1px; }
-.estrela.tam2 { width: 2px; height: 2px; }
-.estrela.tam3 { width: 3px; height: 3px; }
+#estrela.tam1 { width: 1px; height: 1px; }
+#estrela.tam2 { width: 2px; height: 2px; }
+#estrela.tam3 { width: 3px; height: 3px; }
 
-.estrela.opacity1 { opacity:  1; }
-.estrela.opacity2 { opacity: .5; }
-.estrela.opacity3 { opacity: .1; }
+#estrela.opacity1 { opacity:  1; }
+#estrela.opacity2 { opacity: .5; }
+#estrela.opacity3 { opacity: .1; }
 
 #meteoro {
   position: absolute;
@@ -130,10 +130,10 @@ canvas{
   top: 0;
 }
 
-.meteoro.style1 { animation-name: meteoroStyle1; }
-.meteoro.style2 { animation-name: meteoroStyle2; }
-.meteoro.style3 { animation-name: meteoroStyle3; }
-.meteoro.style4 { animation-name: meteoroStyle4; }
+#meteoro.style1 { animation-name: meteoroStyle1; }
+#meteoro.style2 { animation-name: meteoroStyle2; }
+#meteoro.style3 { animation-name: meteoroStyle3; }
+#meteoro.style4 { animation-name: meteoroStyle4; }
 
 #lua {
   position: absolute;
