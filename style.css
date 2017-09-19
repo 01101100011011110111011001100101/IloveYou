@@ -43,19 +43,18 @@ canvas{
   z-index: -5;
 }
 
-h2 {
+#container {
   position: absolute;
   color: white;
   font-family: "Lucida Console", Times, Monospace;
-  font-size: 48px;
-  text-align: center;
+  font-size: 30px;
   z-index: 5;
+  overflow:hidden;
+   height: 48px;
+    margin-top: 275px;
+    margin-left: 50%;
 }
 
-#container{
-    overflow:hidden;
-    height:48px;
-}
 .whoiam{
     -webkit-animation: move;
             animation: move;
