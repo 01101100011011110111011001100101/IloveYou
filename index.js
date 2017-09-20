@@ -141,4 +141,6 @@ var sketch = Sketch.create({
   }
 });
 
-
+$(document).ready(function () {
+    $('div.hidden').fadeIn(4000).removeClass('hidden');
+});
