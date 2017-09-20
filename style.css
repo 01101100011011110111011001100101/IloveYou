@@ -43,7 +43,6 @@ div#cyclelist {
   z-index: 5;
   font-size: 30px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  overflow: hidden;
   text-transform: lowercase;
   margin-left: auto;
   margin-right: auto;
