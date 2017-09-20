@@ -98,7 +98,7 @@ h2{
     -webkit-animation-iteration-count: 5;
             animation-iteration-count: 5;
 }
-
+h2{ height:48px;margin:0;padding:0}
 @-webkit-keyframes fade {
     0% { opacity: 1; filter:alpha(opacity=100); }
     50% { opacity: 0; filter:alpha(opacity=0); }
