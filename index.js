@@ -5,7 +5,7 @@ var canvas = document.getElementById('test'),
   h = window.innerHeight;
 
 var drawer = function() {
-  //originally made background white
+  //original backgound was made white
   //ctx.fillStyle="#222";
   ctx.clearRect(0, 0, w, h);
   stack.forEach(function(el) {
