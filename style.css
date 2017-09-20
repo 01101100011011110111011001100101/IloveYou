@@ -44,7 +44,7 @@ canvas{
 }
 
 #container {
-  position: relative;
+  position: absolute;
   color: white;
   font-family: "Lucida Console", Times, Monospace;
   font-size: 30px;
