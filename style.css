@@ -63,8 +63,8 @@ canvas{
     -webkit-animation: move;
             animation: move;
     position:relative;
-    -webkit-animation-duration: 8s;
-            animation-duration: 8s;
+    -webkit-animation-duration: 8.8s;
+            animation-duration: 8.8s;
     -webkit-animation-iteration-count: 1;
             animation-iteration-count: 1;
     -webkit-animation-timing-function: step-start;
@@ -72,9 +72,9 @@ canvas{
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
 }
-h2{ height:48px;margin:0;padding:0}
+
 @-webkit-keyframes move {
-     0% { margin-top: 0em; }
+     0% { margin-top: 0px; }
     20% { margin-top: -48px; }
     40% {margin-top: -96px;}
     60% {margin-top: -144px; }
@@ -82,7 +82,7 @@ h2{ height:48px;margin:0;padding:0}
     100% {margin-top: 0;}
 }
 @keyframes move {
-    0% { margin-top: 0em; }
+    0% { margin-top: 0px; }
     20% { margin-top: -48px; }
     40% {margin-top: -96px;}
     60% {margin-top: -144px; }
