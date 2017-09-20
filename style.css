@@ -50,9 +50,7 @@ div#cyclelist {
   z-index: 5;
   font-size: 30px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  width: 300px;
   overflow: hidden;
-  height: 200px;
   text-transform: lowercase;
   margin-left: auto;
   margin-right: auto;
