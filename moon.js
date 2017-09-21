@@ -1,3 +1,4 @@
+document.write(".js-hide { display: none; }");
 function init(){
  
   //estrelas
