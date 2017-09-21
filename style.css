@@ -74,19 +74,19 @@ div#cyclelist h2 {
 
 #Capybara{
   opacity: 0;
-    -webkit-animation: 8s ease 0s normal forwards 1 fadein;
-    animation: 8s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 15s ease 1s normal forwards 1 fadein;
+    animation: 15s ease 1s normal forwards 1 fadein;
 }
 
 @keyframes fadein{
     0% { opacity:0; }
-    66% { opacity:0.5; }
+    66% { opacity:0; }
     100% { opacity:1; }
 }
 
 @-webkit-keyframes fadein{
     0% { opacity:0; }
-    66% { opacity:0.5; }
+    66% { opacity:0; }
     100% { opacity:1; }
 }
 
