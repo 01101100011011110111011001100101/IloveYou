@@ -66,3 +66,10 @@ div#cyclelist h2 {
   opacity: 0;
   position: absolute;
 }
+
+div#fader2 {
+  z-index: 4;
+  position: absolute;
+  margin-left: 500px
+}
+  
