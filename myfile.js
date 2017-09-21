@@ -1,4 +1,5 @@
-$('.fader2').hide().delay(10000).fadeIn(1000);
+
+
 $(document).ready(function() {
 
   var j = 0;
@@ -22,3 +23,6 @@ $(document).ready(function() {
   
 });
 
+$("div#fade2")
+.animate({"opacity":"0"},10000)
+.animate({"opacity":"1"},400)
