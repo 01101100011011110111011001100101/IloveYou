@@ -71,7 +71,6 @@ div#cyclelist h2 {
 #Capybara{
   opacity: 0;
   z-index:10;
-  right: 140;
     -webkit-animation: 15s ease 1s normal forwards 1 fadein;
     animation: 15s ease 1s normal forwards 1 fadein;
 }
