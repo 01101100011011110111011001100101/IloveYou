@@ -1,7 +1,7 @@
 var canvas = document.getElementById('test'),
   ctx = canvas.getContext('2d'),
   stack = [],
-  w = window.innerWidth,
+  w = window.innerWidth+300,
   h = window.innerHeight;
 
 var drawer = function() {
