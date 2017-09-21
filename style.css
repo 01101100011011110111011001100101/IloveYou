@@ -29,6 +29,14 @@ div {
 
 }
 
+#dusk {
+  background: #222;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.6;
+}
+
 canvas {
   width: 1039px;
   position: absolute;
