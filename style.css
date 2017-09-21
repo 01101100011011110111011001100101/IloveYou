@@ -50,7 +50,7 @@ canvas {
   z-index: -5;
 }
 
-div#cyclelist {
+div#cyclelist h2 {
   color: White;
   z-index: 10;
   font-size: 30px;
@@ -65,16 +65,12 @@ div#cyclelist {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-div#cyclelist h2 {
   opacity: 0;
-  position: absolute;
 }
 
 #Capybara{
   opacity: 0;
-  z-index:7;
+  z-index:10;
   right: 140;
     -webkit-animation: 15s ease 1s normal forwards 1 fadein;
     animation: 15s ease 1s normal forwards 1 fadein;
