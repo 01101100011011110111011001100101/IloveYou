@@ -56,8 +56,8 @@ var anim = function() {
 for (var x = 0; x < (w / 7); x++) {
   stack.push(anim());
 }
-canvas.width = w;
-canvas.height = h;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 drawer();
 
 
