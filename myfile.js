@@ -1,6 +1,5 @@
-
-
 $(document).ready(function() {
+
   var j = 0;
   var delay = 2100; //millisecond delay between cycles
   function cycleThru() {
@@ -19,7 +18,6 @@ $(document).ready(function() {
         cycleThru();
       });
   };
-  
+  cycleThru();
+
 });
-
-
