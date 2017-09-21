@@ -69,7 +69,7 @@ Added glow, changed size, color and speed
 
 var particles = [],
   //number of particles
-  particleCount = 200;
+  particleCount = 150;
 Particle = function(x, y) {
   this.x = x;
   this.y = y;
@@ -77,7 +77,7 @@ Particle = function(x, y) {
 
 
   //size of particles 
-  this.radius = random(1, 5);
+  this.radius = random(1, 7);
 
   //colors red,green,blue,transparancy 
   this.rgba = 'rgba(' + floor(random(240, 245)) + ',' + floor(random(219, 245)) + ',' + floor(random(140, 144)) + ',' + random(.2, .8) + ')';
