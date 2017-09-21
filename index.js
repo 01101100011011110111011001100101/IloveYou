@@ -2,7 +2,7 @@ var canvas = document.getElementById('test'),
   ctx = canvas.getContext('2d'),
   stack = [],
   w = window.innerWidth,
-  h = window.innerHeight-76;
+  h = window.innerHeight;
 
 var drawer = function() {
   //original backgound was made white
@@ -128,7 +128,7 @@ var sketch = Sketch.create({
   setup: function() {
     var i = particleCount;
     while (i--) {
-      var p = new Particle(random(-300, this.width), random(0, this.height));
+      var p = new Particle(random(0, this.width), random(0, this.height));
       particles.push(p);
     }
   },
