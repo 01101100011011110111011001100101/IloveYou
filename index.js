@@ -56,8 +56,8 @@ var anim = function() {
 for (var x = 0; x < (w / 7); x++) {
   stack.push(anim());
 }
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = w;
+canvas.height = h;
 drawer();
 
 
@@ -128,7 +128,7 @@ var sketch = Sketch.create({
   setup: function() {
     var i = particleCount;
     while (i--) {
-      var p = new Particle(random(0, this.width), random(0, this.height));
+      var p = new Particle(random(-300, this.width), random(0, this.height));
       particles.push(p);
     }
   },
