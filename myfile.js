@@ -1,3 +1,4 @@
+$('.fader2').hide().delay(1000).fadeIn(9000);
 $(document).ready(function() {
 
   var j = 0;
