@@ -39,7 +39,7 @@ div {
 
 canvas {
   width: 100%;
-  position: relative;
+  position: absolute;
   height: 100%;
 }
 
