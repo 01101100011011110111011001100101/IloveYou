@@ -7,13 +7,13 @@ $(document).ready(function() {
     $("div#cyclelist h2:eq(" + j + ")")
       .animate({
         "opacity": "1"
-      }, 400)
+      }, 450)
       .animate({
         "opacity": "1"
       }, delay)
       .animate({
         "opacity": "0"
-      }, 400, function() {
+      }, 450, function() {
         (j == jmax) ? j = 0: j++;
         cycleThru();
       });
