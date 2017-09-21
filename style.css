@@ -76,6 +76,8 @@ div#cyclelist h2 {
   opacity: 0;
     -webkit-animation: 15s ease 1s normal forwards 1 fadein;
     animation: 15s ease 1s normal forwards 1 fadein;
+  right: 200px;
+  bottom: -100px;
 }
 
 @keyframes fadein{
