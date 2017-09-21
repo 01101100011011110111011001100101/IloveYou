@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   var j = 0;
-  var delay = 2100; //millisecond delay between cycles
+  var delay = 2000; //millisecond delay between cycles
   function cycleThru() {
     var jmax = $("div#cyclelist h2").length - 1;
     $("div#cyclelist h2:eq(" + j + ")")
