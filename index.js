@@ -1,8 +1,8 @@
 var canvas = document.getElementById('test'),
   ctx = canvas.getContext('2d'),
   stack = [],
-  w = window.innerWidth+300,
-  h = window.innerHeight;
+  w = window.innerWidth+230,
+  h = window.innerHeight-230;
 
 var drawer = function() {
   //original backgound was made white
