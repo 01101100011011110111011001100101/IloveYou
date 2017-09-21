@@ -2,7 +2,7 @@ $('.fader2').hide().delay(1000).fadeIn(9000);
 $(document).ready(function() {
 
   var j = 0;
-  var delay = 2900; //millisecond delay between cycles
+  var delay = 2100; //millisecond delay between cycles
   function cycleThru() {
     var jmax = $("div#cyclelist h2").length - 1;
     $("div#cyclelist h2:eq(" + j + ")")
@@ -19,7 +19,6 @@ $(document).ready(function() {
         cycleThru();
       });
   };
-  cycleThru();
-
+  
 });
 
