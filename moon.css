@@ -4,6 +4,7 @@
   height: 100%;
   position: absolute;
   overflow: hidden;
+  z-index: 0;
 }
  
 .constelacao {
@@ -98,19 +99,6 @@
   opacity: 0.4;
 }
  
-.floresta {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
- 
-.floresta img {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
  
 @keyframes escurecer {
   0%   { top: 0; }
