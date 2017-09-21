@@ -69,7 +69,7 @@ Added glow, changed size, color and speed
 
 var particles = [],
   //number of particles
-  particleCount = 150;
+  particleCount = 130;
 Particle = function(x, y) {
   this.x = x;
   this.y = y;
