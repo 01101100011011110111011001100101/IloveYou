@@ -5,6 +5,9 @@ $(document).ready(function() {
   var j = 0;
   var delay = 2100; //millisecond delay between cycles
   function cycleThru() {
+    $("div#fade2")
+.animate({"opacity":"0"},10000)
+.animate({"opacity":"1"},400)
     var jmax = $("div#cyclelist h2").length - 1;
     $("div#cyclelist h2:eq(" + j + ")")
       .animate({
@@ -23,6 +26,4 @@ $(document).ready(function() {
   
 });
 
-$("div#fade2")
-.animate({"opacity":"0"},10000)
-.animate({"opacity":"1"},400)
+
