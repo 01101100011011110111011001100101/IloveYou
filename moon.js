@@ -25,7 +25,7 @@ function init(){
  
   noite.innerHTML = estrela;
  
-  //meteoros
+  /*meteoros
  
   var numeroAleatorio = 5000;
  
@@ -42,7 +42,7 @@ function init(){
       document.getElementsByClassName('chuvaMeteoro')[0].innerHTML = "";
     }, 1000);
   }
- 
+ */
 }
  
 window.onload = init;
