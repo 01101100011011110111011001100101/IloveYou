@@ -9,19 +9,19 @@ div {
   position: absolute;
 }
 
-/*#behind {
+#behind {
   background: #222;
   width: 100%;
   z-index: 0;
   bottom: 0;
-}*/
+}
 
-/*#front {
+#front {
   background: #000;
   z-index: 3;
   margin-left: 50%;
   color: "white";
-}*/
+}
 
 #grass {
   width: 100%;
