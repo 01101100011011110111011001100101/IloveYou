@@ -41,7 +41,9 @@ canvas {
 div#cyclelist {
   color: White;
   z-index: 8;
-  font-size: 30px;
+  width: 500px;
+  height: 300px;
+  font-size: 25px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   position: absolute;
   overflow: hidden;
