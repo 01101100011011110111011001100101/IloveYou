@@ -17,7 +17,6 @@ $(document).ready(function() {
         (j == jmax) ? j = 0: j++;
         cycleThru();
       });
-    cycleThru();
   };
-
+cycleThru();
 });
