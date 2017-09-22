@@ -55,8 +55,7 @@ div#cyclelist {
   font-size: 30px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   width: 500px;
-  position: relative;
-  overflow: hidden;
+  position: absolute;
   height: 300px;
   text-transform: lowercase;
   top: 50%;
@@ -68,5 +67,5 @@ div#cyclelist {
 
 div#cyclelist h2 {
   opacity: 0;
-  position: relative;
+  position: absolute;
 }
