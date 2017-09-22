@@ -2,7 +2,7 @@ body {
   background: #222;
   margin: 0;
   overflow: hidden;
-  z-index: 8;
+  z-index: 0;
 }
 
 div {
@@ -29,6 +29,14 @@ div {
 
 }
 
+#dusk {
+  background: #222;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0.3;
+}
+
 canvas {
   width: 100%;
   position: relative;
@@ -44,13 +52,18 @@ canvas {
 
 div#cyclelist {
   color: White;
-  z-index: 8;
+  z-index: 10;
   font-size: 30px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   width: 500px;
   position: absolute;
   overflow: hidden;
   height: 300px;
+  text-transform: lowercase;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -58,4 +71,3 @@ div#cyclelist h2 {
   opacity: 0;
   position: absolute;
 }
-
