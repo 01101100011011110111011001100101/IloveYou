@@ -12,7 +12,6 @@ div {
 #behind {
   background: #222;
   width: 100%;
-  z-index: 5;
   bottom: 0;
 }
 
