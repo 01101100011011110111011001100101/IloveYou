@@ -62,9 +62,9 @@ drawer();
 
 
 
-/*
-Bouncing Balls orignally by Rob Glazebrook
-Added glow, changed size, color and speed
+
+/*Bouncing Balls orignally by Rob Glazebrook
+Added glow, changed size, color and speed*/
 
 
 var particles = [],
@@ -145,4 +145,4 @@ var sketch = Sketch.create({
     }
   }
 });
-*/
+
