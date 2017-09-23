@@ -23,7 +23,7 @@ function init(){
     + getRandomArbitrary(0, widthWindow) + "px; top: " + getRandomArbitrary(0, heightWindow) + "px;'></span>";
   }
  
-  //noite.innerHTML = estrela;
+ noite.innerHTML = estrela;
  
   
 }
