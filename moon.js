@@ -1,7 +1,7 @@
 
 function init(){
  
-  //estrelas
+  //estrelas 
  
   var style = ["style1", "style2", "style3", "style4"];
   var tam = ["tam1", "tam1", "tam1", "tam2", "tam3"];
