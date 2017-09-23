@@ -28,7 +28,7 @@ var anim = function() {
   }
 
   //color of grass   
-  var color = 'rgb(' + c(100, 40) + ',' + c(180, 64) + ',' + c(64, 40) + ')';
+  var color = 'rgb(' + c(125, 50) + ',' + c(225, 80) + ',' + c(80, 50) + ')';
   return function() {
 
     //how fast + far the blades bend 
@@ -40,7 +40,7 @@ var anim = function() {
 
     ctx.strokeWidth = 10;
     ctx.translate(w / 2 + position, h)
-    ctx.fillStyle = color;
+    ctx.fillStyle = 0.6*color;
 
     ctx.beginPath();
     ctx.lineTo(-size, 0);
