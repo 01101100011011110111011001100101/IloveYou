@@ -40,7 +40,7 @@ var anim = function() {
 
     ctx.strokeWidth = 10;
     ctx.translate(w / 2 + position, h)
-    ctx.fillStyle = 0.6*color;
+    ctx.fillStyle = color;
 
     ctx.beginPath();
     ctx.lineTo(-size, 0);
